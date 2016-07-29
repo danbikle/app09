@@ -1,9 +1,13 @@
 !!!
-%html
+%html(lang="en")
   %head
+    %meta(charset="utf-8")
     %title app09
-  %body
-    = render '/layouts/top_bar'
-    = yield
-    = render '/layouts/bottom_bar'
+    %link(rel="icon" href="/favicon.ico")
+    %link(href="/my.css" rel="stylesheet")
 
+  %body
+    = render "/layouts/top_bar"
+    = yield
+    %hr/
+    %script(src="/my.js")
