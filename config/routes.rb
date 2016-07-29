@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'visualizations/cities'
+
   get  'posts/home'
   root 'posts#home'
   get 'posts/about'
