@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>App09</title>
-    <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <title>app09</title>
   </head>
 
   <body>
+    <%= render '/layouts/top_bar' %>
     <%= yield %>
+    <%= render '/layouts/bottom_bar' %>
   </body>
 </html>
