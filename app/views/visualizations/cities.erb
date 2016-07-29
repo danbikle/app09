@@ -1,5 +1,8 @@
 <!doctype html>
 <head>
+        <title>app09/visualizations/cities</title>
+	<link rel="icon" href="/favicon.ico">
+        <link href="/my.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css">
 	<link type="text/css" rel="stylesheet" href="/danshaw/src/css/graph.css">
 	<link type="text/css" rel="stylesheet" href="/danshaw/src/css/detail.css">
@@ -46,6 +49,19 @@
 	<script src="/danshaw/extensions/js/extensions.js"></script>
 </head>
 <body>
+<%= render '/layouts/top_bar' %>
+
+This is a visualization of some random time series data.
+<br />
+
+Source:
+<br />
+
+<a href='http://code.shutterstock.com/rickshaw/examples/extensions.html' target='x'>
+http://code.shutterstock.com/rickshaw/examples/extensions.html
+</a>
+
+<hr />
 
 <div id="content">
 
@@ -112,6 +128,8 @@
 	</div>
 
 </div>
+<%= render '/layouts/bottom_bar' %>
+<hr />
 
 <script>
 
