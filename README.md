@@ -47,6 +47,8 @@ rbenv global  2.3.1
 gem install bundler
 ```
 
+* I assume that Ruby 2.3.1 will be a suitable version of Ruby until 2019.
+
 * Then, I cloned this repository:
 
 ```bash
@@ -72,3 +74,8 @@ script/railss.bash
 
 * At that point this app/repo was running on my laptop and I could start development.
 
+* This app runs Rails 5.0.
+
+* I assume that Rails 5.0 will be a suitable version of Rails until 2018.
+
+* If you have questions, e-me: bikle101@gmail.com
